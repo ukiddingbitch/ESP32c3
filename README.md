@@ -16,8 +16,6 @@ MIFA-F4 is a development board based on the **Espressif ESP32-C3FH4**, with 4 MB
 
 ## Board
 
-![ESP32-C3 MIFA-F4](docs/F4.png)
-
 ![ESP32-C3 MIFA-F4 single board](docs/F4.png)
 
 **Six-board assembly panel**
