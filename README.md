@@ -24,6 +24,10 @@ MIFA-F4 is a development board based on the **Espressif ESP32-C3FH4**, with 4 MB
 
 ![Top copper, silkscreen, and routed outline of the six-board panel](docs/F4-panel.svg)
 
+## Interactive 3D View
+
+[View the board in 3D](https://USERNAME.github.io/REPOSITORY/F4-live.html)
+
 ## Opening the design in KiCad
 
 Download or clone the full repository to include the project libraries and 3D models. Open the [MIFA-F4 project](esp32c3mini-MIFA-F4/esp32c3mini.kicad_pro) in **KiCad 10**. Select the `.kicad_sch` file to view the schematic or the `.kicad_pcb` file to inspect the board layout. In the PCB Editor, press **Alt+3** to open the 3D Viewer.
