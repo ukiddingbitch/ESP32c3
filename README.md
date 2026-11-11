@@ -14,11 +14,11 @@ MIFA-F4 is a development board based on the **Espressif ESP32-C3FH4**, with 4 MB
 | Assembly | 35 components per board |
 | Panel | Six boards in a 3 × 2 layout, 95.62 × 80 mm, 210 component placements |
 
-## Interactive 3D view
+## Board
 
-[![ESP32-C3 MIFA-F4](docs/F4.png)](https://ukiddingbitch.github.io/esp32c3mini/F4-live.html)
+![ESP32-C3 MIFA-F4](docs/F4.png)
 
-Click the board to open the 3D viewer. Drag to rotate and scroll to zoom.
+![ESP32-C3 MIFA-F4 single board](docs/F4.png)
 
 **Six-board assembly panel**
 
