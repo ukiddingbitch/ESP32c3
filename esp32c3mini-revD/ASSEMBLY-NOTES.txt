@@ -1,0 +1,9 @@
+Revision D assembly notes — production on hold
+
+Each 22 × 26.9 mm board has 37 surface-mount placements. The 3 × 2 panel measures 88 × 74 mm and has 222 placements. Both use a 0.8 mm, two-layer PCB with an ENIG finish. J1 consists of PCB edge contacts and requires no purchased or placed component.
+
+Use the Gerber ZIP for fabrication and the BOM and CPL CSV files for assembly. Select all three files from the same revision D directory.
+
+The panel has routed openings, rounded corners, 24 breakaway tabs, 72 mouse-bite holes, four tooling holes and three fiducials. The manufacturer needs to review the USB profile, minimum routing dimensions, castellated holes and depanelization. The USB interface has exposed PCB contacts without a metal shell. Verify contact reliability and mating durability on a prototype.
+
+The hardware audit calls for further checks of RF matching, chip grounding, the crystal circuit and the power supply. At the time these fabrication files were prepared, no files had been uploaded to JLCPCB and no order had been placed.
