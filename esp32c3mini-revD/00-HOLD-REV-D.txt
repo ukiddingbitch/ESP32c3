@@ -1,4 +1,0 @@
-Revision D — on hold pending completion of the hardware audit and prototype validation.
-The Gerbers, BOM and CPL correspond to revision D. Functional validation is pending.
-USB-C uses contacts on the 0.8 mm ENIG-finished PCB. J1 requires no separate connector.
-Each 88 × 74 mm panel contains six boards.

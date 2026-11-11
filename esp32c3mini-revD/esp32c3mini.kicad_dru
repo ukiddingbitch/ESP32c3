@@ -1,7 +1,0 @@
-(version 1)
-(rule "Normal copper setback" (constraint edge_clearance (min 0.2mm)))
-(rule "Intentional castellated header copper at routed edges"
- (condition "A.memberOfFootprint('H1') || A.memberOfFootprint('H2') || B.memberOfFootprint('H1') || B.memberOfFootprint('H2')")
- (constraint edge_clearance (min 0mm)))
-
-(rule "JLCPCB SMD pad spacing" (condition "A.Type == 'Pad' && B.Type == 'Pad' && A.Pad_Type == 'SMD' && B.Pad_Type == 'SMD'") (constraint clearance (min 0.15mm)))
