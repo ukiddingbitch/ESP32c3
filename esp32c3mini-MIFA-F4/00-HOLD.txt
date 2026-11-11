@@ -1,0 +1,13 @@
+Revision F4 prototype — series production on hold
+
+Single board: 24.54 × 29.90 mm, 0.8 mm FR-4, two layers, ENIG.
+Panel: 3 × 2 boards, 95.62 × 80 mm. Use the Gerber ZIP, BOM and CPL from panel/ for panel orders. Each board has 35 placements, for a total of 210 per panel.
+
+The MIFA is based on TI AN043. The antenna ground and feed points were moved by 3 mm. The extended feed has a ground reference on the bottom layer. Leave L2 unpopulated.
+
+The Y1 crystal body is 5.18 mm from the radiator. XTAL_P and XTAL_N run entirely on the front copper layer without vias. Their total segment lengths, including the connections to the load capacitors, are 6.76 mm and 4.94 mm respectively.
+
+Before series production, test oscillator startup, supply stability during Wi-Fi transmission, reset and USB operation. Verify the regulator orientation in the JLCPCB placement preview. On a board separated from the panel, measure antenna S11 and compare weak-signal reception and packet loss on low, middle and high Wi-Fi channels. RF performance and interference immunity still require prototype measurements.
+
+C13: 1 µF, Samsung CL03A105KQ3CSNC (C318541). Nominal RC time constant: 10 ms.
+Header geometry: two rows of eight pins, 20.32 mm between row centers, 2.54 mm pitch. USB interface J1 uses the same geometry as revision F1.
